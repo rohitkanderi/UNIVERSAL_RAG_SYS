@@ -1,6 +1,6 @@
-# PolicyLens RAG
+# Universal RAG system
 
-PolicyLens RAG is a PDF question-answering project with two LLM paths:
+Universal RAG system is a PDF question-answering project with two LLM paths:
 
 - Local free mode using Ollama.
 - Web API mode using an OpenAI-compatible chat completion endpoint.
