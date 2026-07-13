@@ -3,8 +3,8 @@ from __future__ import annotations
 import contextlib
 from pathlib import Path
 
-from config import CHROMA_COLLECTION
-from config import DB_DIR
+from RAG_LOCAL.config import CHROMA_COLLECTION
+from RAG_LOCAL.config import DB_DIR
 
 
 def create_vector_db(chunks, embedding, reset=False):

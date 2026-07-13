@@ -5,9 +5,9 @@ from fastapi import HTTPException
 from pydantic import BaseModel
 from pydantic import Field
 
-from config import PROJECT_NAME
-from config import RETRIEVAL_K
-from HR_RAG_CLOUD.backend.rag import answer_question
+from RAG_LOCAL.config import PROJECT_NAME
+from RAG_LOCAL.config import RETRIEVAL_K
+from RAG_CLOUD.backend.rag import answer_question
 
 app = FastAPI(title=f"{PROJECT_NAME} API")
 

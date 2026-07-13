@@ -12,8 +12,8 @@ from config import WEB_LLM_API_KEY
 from config import WEB_LLM_BASE_URL
 from config import WEB_LLM_MODEL
 from config import WEB_LLM_TIMEOUT_SECONDS
-from utils.embeddings import get_embeddings
-from utils.prompting import build_rag_prompt
+from RAG_LOCAL.utils.embeddings import get_embeddings
+from RAG_LOCAL.utils.prompting import build_rag_prompt
 
 
 _embedding = None

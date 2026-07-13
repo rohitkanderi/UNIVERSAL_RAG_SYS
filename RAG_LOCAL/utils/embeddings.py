@@ -1,4 +1,4 @@
-from config import EMBEDDING_MODEL
+from RAG_LOCAL.config import EMBEDDING_MODEL
 
 
 def get_embeddings():

@@ -3,10 +3,10 @@ from __future__ import annotations
 import argparse
 
 from config import DOCS_DIR
-from utils.embeddings import get_embeddings
-from utils.loader import load_documents
-from utils.splitter import split_documents
-from utils.vectordb import create_vector_db
+from RAG_LOCAL.utils.embeddings import get_embeddings
+from RAG_LOCAL.utils.loader import load_documents
+from RAG_LOCAL.utils.splitter import split_documents
+from RAG_LOCAL.utils.vectordb import create_vector_db
 
 
 def ingest(docs_dir=DOCS_DIR, reset=True):

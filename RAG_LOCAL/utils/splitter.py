@@ -1,5 +1,5 @@
-from config import CHUNK_OVERLAP
-from config import CHUNK_SIZE
+from RAG_LOCAL.config import CHUNK_OVERLAP
+from RAG_LOCAL.config import CHUNK_SIZE
 
 
 def split_documents(documents):

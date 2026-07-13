@@ -5,8 +5,8 @@ import os
 import requests
 import streamlit as st
 
-from config import PROJECT_NAME
-from config import RETRIEVAL_K
+from RAG_LOCAL.config import PROJECT_NAME
+from RAG_LOCAL.config import RETRIEVAL_K
 
 API_URL = os.getenv("POLICYLENS_API_URL", "http://localhost:8000")
 

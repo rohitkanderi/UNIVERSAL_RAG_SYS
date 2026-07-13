@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from query import normalize_provider
+from RAG_LOCAL.query import normalize_provider
 
 
 def supported_provider(provider):
